@@ -4,6 +4,7 @@
 /config/app.php
 /tmp/*
 /logs/*
+composer.lock
 
 # CakePHP 2
 
@@ -11,3 +12,4 @@
 /app/Config/core.php
 /app/Config/database.php
 /vendors/*
+composer.lock
