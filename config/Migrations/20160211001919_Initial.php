@@ -57,6 +57,7 @@ class Initial extends AbstractMigration
             'password' => (new DefaultPasswordHasher)->hash('admin'),
             'active' => true
         ]);
+        $table->saveData();
 
         $table = $this->table('actions');
         $table
