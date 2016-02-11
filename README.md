@@ -35,3 +35,11 @@ After adding the plugin remember to load it in your `config/bootstrap.php` file:
 Plugin::load('Acl', ['bootstrap' => true, 'routes' => true]);
 ```
 
+### Apply Migrations
+
+After enable the plugin remember to apply the migrations to create the ACL tables in your database:
+
+```bash
+bin/cake migrations migrate --plugin Acl
+```
+
