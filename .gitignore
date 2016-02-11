@@ -5,6 +5,7 @@
 /tmp/*
 /logs/*
 composer.lock
+phpunit.xml.dist
 
 # CakePHP 2
 
@@ -13,3 +14,4 @@ composer.lock
 /app/Config/database.php
 /vendors/*
 composer.lock
+phpunit.xml.dist

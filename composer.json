@@ -1,0 +1,34 @@
+{
+    "name": "gustavo82mdq/Acl",
+    "description": "Acl plugin for CakePHP",
+    "authors": [
+        {
+            "name": "Gustavo Tajes Genga",
+            "email": "gustavo82mdq@hotmail.com",
+            "homepage": "https://github.com/gustavo82mdq",
+            "role": "Developer"
+        }
+    ],
+    "keywords": ["cakephp", "acl", "plugin"],
+    "license": "MIT",
+    "type": "cakephp-plugin",
+    "require": {
+        "php": ">=5.4.16",
+        "cakephp/cakephp": "~3.0",
+        "elboletaire/twbs-cake-plugin": "^3.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acl\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Acl\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
